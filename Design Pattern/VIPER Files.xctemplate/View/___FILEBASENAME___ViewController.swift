@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ___VARIABLE_ModuleName___ViewController: BaseViewController, StoryboardLoadable {
+class ___VARIABLE_ModuleName___ViewController: UIViewController, StoryboardLoadable {
 
     // MARK: Properties
 

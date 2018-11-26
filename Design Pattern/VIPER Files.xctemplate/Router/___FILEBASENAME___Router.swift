@@ -22,6 +22,8 @@ class ___VARIABLE_ModuleName___Router {
         let presenter = ___VARIABLE_ModuleName___Presenter()
         let router = ___VARIABLE_ModuleName___Router()
         let interactor = ___VARIABLE_ModuleName___Interactor()
+        let dataManger = ___VARIABLE_ModuleName___DataManager()
+        let networkManager = ___VARIABLE_ModuleName___NetworkManager()
 
         viewController.presenter =  presenter
 
@@ -32,6 +34,10 @@ class ___VARIABLE_ModuleName___Router {
         router.view = viewController
 
         interactor.output = presenter
+        interactor.dataManager = dataManger
+        
+        dataManger.output = interactor
+        dataManger.networkManager = networkManager
 
         return viewController
     }

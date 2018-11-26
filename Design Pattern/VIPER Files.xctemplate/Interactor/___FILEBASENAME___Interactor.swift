@@ -13,8 +13,15 @@ class ___VARIABLE_ModuleName___Interactor {
     // MARK: Properties
 
     weak var output: ___VARIABLE_ModuleName___InteractorOutput?
+    
+    var dataManager: ___VARIABLE_ModuleName___DataManagerInterface?
 }
 
 extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___UseCase {
     // TODO: Implement use case methods
+}
+
+extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___DataManagerOutputInterface {
+    
+    
 }
