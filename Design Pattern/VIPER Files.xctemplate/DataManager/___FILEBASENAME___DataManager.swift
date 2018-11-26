@@ -14,7 +14,7 @@ class ___VARIABLE_ModuleName___DataManager {
     
     weak var output: ___VARIABLE_ModuleName___DataManagerOutputInterface?
     
-    weak var networkManager: ___VARIABLE_ModuleName___NetworkManagerInterface?
+    var networkManager: ___VARIABLE_ModuleName___NetworkManagerInterface?
     
 }
 
