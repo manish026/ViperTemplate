@@ -35,11 +35,11 @@ class ___VARIABLE_ModuleName___Router {
 
         interactor.output = presenter
         interactor.dataManager = dataManger
+        interactor.networkManager = networkManager
         
         dataManger.output = interactor
-        dataManger.networkManager = networkManager
         
-        networkManager.output = dataManger
+        networkManager.output = interactor
 
         return viewController
     }

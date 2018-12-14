@@ -15,6 +15,9 @@ class ___VARIABLE_ModuleName___Interactor {
     weak var output: ___VARIABLE_ModuleName___InteractorOutput?
     
     var dataManager: ___VARIABLE_ModuleName___DataManagerInterface?
+    
+    var networkManager: ___VARIABLE_ModuleName___NetworkManagerInterface?
+    
 }
 
 extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___UseCase {
@@ -22,6 +25,11 @@ extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___UseCase 
 }
 
 extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___DataManagerOutputInterface {
+    
+    
+}
+
+extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___NetworkManagerOutputInterface {
     
     
 }
